@@ -5,6 +5,8 @@ def room_light_agent(percept):
         return "Turn Light OFF"
     elif percept == "Dim":
         return "Leave Light As Is"
+    elif percept == "Very Bright":
+        return "Turn Light OFF"
     else:
         return "Unknown"
 
